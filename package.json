@@ -1,0 +1,27 @@
+{
+  "name": "future-imperfect-kr",
+  "version": "0.1.0",
+  "description": "html5up.net의 Future Imperfect 테마에 한글 글꼴을 적용하는 간단한 프로젝트입니다.",
+  "main": "index.js",
+  "scripts": {
+      "build": "./node_modules/.bin/grunt",
+      "clean": "./node_modules/.bin/grunt clean",
+      "sass": "./node_modules/.bin/grunt sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbsbroad/future-imperfect-kr.git"
+  },
+  "author": "Jason Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kbsbroad/future-imperfect-kr/issues"
+  },
+  "homepage": "https://github.com/kbsbroad/future-imperfect-kr#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
