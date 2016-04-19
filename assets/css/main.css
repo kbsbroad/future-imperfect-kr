@@ -1160,7 +1160,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #3c3b3b;
   font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
   font-weight: 800;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.05em;
   line-height: 1.65;
   margin: 0 0 1em 0;
   text-transform: uppercase; }
@@ -1256,7 +1256,7 @@ hr {
   font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
   font-size: 0.6em;
   font-weight: 400;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   white-space: nowrap; }
   .author .name {
@@ -1321,7 +1321,7 @@ button,
   font-size: 0.6em;
   font-weight: 800;
   height: 4.8125em;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.05em;
   line-height: 4.8125em;
   padding: 0 2.5em;
   text-align: center;
@@ -1379,7 +1379,8 @@ button,
   input[type="button"].big,
   button.big,
   .button.big {
-    font-size: 0.7em;
+    /* font-size: 0.7em; */
+    font-size: 0.8em;
     padding: 0 3em; }
   input[type="submit"].small,
   input[type="reset"].small,
@@ -1639,8 +1640,11 @@ input[type="radio"] + label:before {
       width: 100%; }
   .image.featured {
     display: block;
-    margin: 0 0 3em 0;
-    width: 100%; }
+    left: -3em;
+    margin: -3em 0 3em 0;
+    /* margin: 0 0 _size(section-spacing) 0; */
+    width: calc(100% + 6em);
+    /* width: 100%; */ }
     .image.featured img {
       width: 100%; }
     @media screen and (max-width: 736px) {
@@ -1830,7 +1834,7 @@ ul {
           font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
           font-size: 0.6em;
           font-weight: 400;
-          letter-spacing: 0.25em;
+          letter-spacing: 0.05em;
           margin: -0.625em 0 1.7em 0;
           text-transform: uppercase; }
         ul.posts article header > :last-child {
@@ -1887,7 +1891,7 @@ dl {
       font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
       font-size: 0.6em;
       font-weight: 400;
-      letter-spacing: 0.25em;
+      letter-spacing: 0.05em;
       margin: -0.625em 0 1.7em 0;
       text-transform: uppercase; }
     .mini-post header .author {
@@ -1966,7 +1970,7 @@ dl {
         font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
         font-size: 0.7em;
         font-weight: 800;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.05em;
         margin-top: 0.5em;
         text-transform: uppercase;
         white-space: nowrap; }
@@ -2006,7 +2010,7 @@ dl {
         font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
         font-size: 0.6em;
         font-weight: 400;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.05em;
         line-height: 1;
         margin: 0 0 0 2em;
         padding: 0 0 0 2em;
@@ -2132,10 +2136,12 @@ section.special, article.special {
 
 header p {
   font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
-  font-size: 0.7em;
+  /* font-size: 0.7em; */
+  font-size: 0.8em;
   font-weight: 400;
-  letter-spacing: 0.25em;
-  line-height: 2.5;
+  letter-spacing: 0.05em;
+  /* line-height: 2.5; */
+  line-height: 2.0;
   margin-top: -1em;
   text-transform: uppercase; }
 
@@ -2244,7 +2250,7 @@ body {
         font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
         font-size: 0.7em;
         font-weight: 400;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.05em;
         text-transform: uppercase; }
   #header .main {
     height: inherit;
@@ -2441,7 +2447,7 @@ body {
   font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
   font-size: 0.5em;
   font-weight: 400;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.05em;
   text-transform: uppercase; }
 
 /* Menu */
@@ -2495,7 +2501,7 @@ body {
           font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
           font-size: 0.6em;
           font-weight: 400;
-          letter-spacing: 0.25em;
+          letter-spacing: 0.05em;
           margin-bottom: 0;
           text-decoration: none;
           text-transform: uppercase; }

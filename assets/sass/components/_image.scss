@@ -48,8 +48,11 @@
 
 		&.featured {
 			display: block;
-			margin: 0 0 _size(section-spacing) 0;
-			width: 100%;
+			left: (_size(section-spacing) * -1);
+			margin: (_size(section-spacing) * -1) 0 _size(section-spacing) 0;
+			/* margin: 0 0 _size(section-spacing) 0; */
+			width: calc(100% + #{_size(section-spacing) * 2});
+			/* width: 100%; */
 
 			img {
 				width: 100%;
