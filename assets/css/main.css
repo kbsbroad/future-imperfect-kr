@@ -2112,6 +2112,7 @@ dl {
       .post > header .meta .author .name {
         display: none; }
     .post > .image.featured {
+      left: 0em;
       margin-left: -1.5em;
       margin-top: calc(-1.5em - 1px);
       width: calc(100% + 3em); }

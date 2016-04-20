@@ -225,6 +225,7 @@
 			}
 
 			> .image.featured {
+				left: 0em;
 				margin-left: _size(section-spacing-small) * -1;
 				margin-top: calc(#{_size(section-spacing-small) * -1} - 1px);
 				width: calc(100% + #{_size(section-spacing-small) * 2});
