@@ -51,3 +51,11 @@
     @return url("data:image/svg+xml;charset=utf8,#{$svg}");
 
 }
+
+/// transition
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}

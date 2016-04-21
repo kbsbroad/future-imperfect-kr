@@ -1413,6 +1413,20 @@ button,
     .button:disabled:before {
       color: rgba(160, 160, 160, 0.3) !important; }
 
+#btn-goto-top {
+  background-color: #ffffff;
+  color: #aaaaaa;
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px; }
+  #btn-goto-top.btn-fade-out {
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -o-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+    opacity: .5; }
+
 /* Form */
 form {
   margin: 0 0 2em 0; }

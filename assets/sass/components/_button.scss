@@ -85,3 +85,17 @@
 			}
 		}
 	}
+
+	#btn-goto-top {
+		background-color: _palette(bg);
+		color: _palette(fg-light);
+		display: none;
+		position: fixed;
+		bottom: 5px;
+		right: 5px;
+
+		&.btn-fade-out {
+			@include transition(opacity .3s 0s, visibility 0s 0s);
+	        opacity: .5;
+		}
+	}
